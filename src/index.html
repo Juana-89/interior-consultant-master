@@ -1,95 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="./styles.css" rel="stylesheet" />
+  <title>Interior Consultant Master</title>
+</head>
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
+<body>
+  <!-- / #-header -->
+  <header>
+    <a id="logo-header" href="#">
+      <span class="logotipo">
+        this interior
+      </span>
+    </a>
+    <!-- / #-nav -->
+    <nav>
       <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
+        <li><a target="_blank" href="#">Home</a></li>
+        <li><a target="_blank" href="#">Collection</a></li>
+        <li><a target="_blank" href="#">About</a></li>
+        <li><a target="_blank" href="#">Contact</a></li>
       </ul>
-    </div>
-  </body>
+    </nav>
+  </header>
+      <!-- / #-main -->
+  <main class="text">
+    <article>
+      <h1>
+        Modern interior
+      </h1>
+      <p class="p">
+        A full-Service residential & commercial interior design and staging company offreing professional organizing &
+        eco-services.
+      </p>
+      <span class="span__a">
+        <a href="#">Read more</a>
+        <img class="span__img" src="./assets/arrow.png" alt="">
+      </span>
+    </article>
+        <!-- / #-section -->
+    <section>
+      <figure>
+        <img src="./assets/photo1.png" alt="" />
+      </figure>
+      <aside>
+        <div class="aside__wrapper">
+          <figure>
+            <img class="figure__avatar" src="./assets/photo2.png" alt="" />
+          </figure>
+          <span class="span__wrapper">
+            <p class="span__name">Aliza Webber</p>
+            <p class="span__profession">Interior designer</p>
+          </span>
+        </div>
+        <h2>Designed in 2020 by Aliza Webber</h2>
+      </aside>
+    </section>
+  </main>
+    <!-- / #-footer -->
+  <footer> Created by <a class="footer__a" target="_blank" href="https://github.com/Juana-89">Juana Llanje</a> - devChallenges.io ❤️
+  </footer>
+</body>
+
 </html>

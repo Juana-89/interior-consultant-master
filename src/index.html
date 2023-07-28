@@ -12,10 +12,14 @@
 </head>
 
 <body>
+  <!-- / #-header -->
   <header>
-    <div class="logotipo">
-      this interior
-    </div>
+    <a id="logo-header" href="#">
+      <span class="logotipo">
+        this interior
+      </span>
+    </a>
+    <!-- / #-nav -->
     <nav>
       <ul>
         <li><a target="_blank" href="#">Home</a></li>
@@ -25,29 +29,43 @@
       </ul>
     </nav>
   </header>
+      <!-- / #-main -->
   <main class="text">
-    <h1>
-      Modern interior
-    </h1>
-    <p>
-      A full-Service residential & commercial interior design and staging company offreing professional organizing &
-      eco-services.
-    </p>
-    <a href="#">Read more -></a>
-    <figure>
-      <img src="./assets/photo1.png" alt="" />
-    </figure>
-    <aside>
+    <article>
+      <h1>
+        Modern interior
+      </h1>
+      <p class="p">
+        A full-Service residential & commercial interior design and staging company offreing professional organizing &
+        eco-services.
+      </p>
+      <span class="span__a">
+        <a href="#">Read more</a>
+        <img class="span__img" src="./assets/arrow.png" alt="">
+      </span>
+    </article>
+        <!-- / #-section -->
+    <section>
       <figure>
-        <img src="./assets/photo2.png" alt="" />
+        <img src="./assets/photo1.png" alt="" />
       </figure>
-      <p>Aliza Webber</p>
-      <p>Inerior designer</p>
-      <p>Designed in 2020 by Aliza Webber</p>
-    </aside>
+      <aside>
+        <div class="aside__wrapper">
+          <figure>
+            <img class="figure__avatar" src="./assets/photo2.png" alt="" />
+          </figure>
+          <span class="span__wrapper">
+            <p class="span__name">Aliza Webber</p>
+            <p class="span__profession">Interior designer</p>
+          </span>
+        </div>
+        <h2>Designed in 2020 by Aliza Webber</h2>
+      </aside>
+    </section>
   </main>
-
-  <footer> Created by Juana Llanje - devChallenges.io ❤️</footer>
+    <!-- / #-footer -->
+  <footer> Created by <a class="footer__a" target="_blank" href="https://github.com/Juana-89">Juana Llanje</a> - devChallenges.io ❤️
+  </footer>
 </body>
 
 </html>

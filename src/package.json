@@ -1,0 +1,22 @@
+{
+  "name": "interior-consultant-master",
+  "version": "1.0.0",
+  "description": "desafio de devchallenges.io",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juana-89/interior-consultant-master.git"
+  },
+  "keywords": [
+    "devchallenge"
+  ],
+  "author": "Juana Llanje",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juana-89/interior-consultant-master/issues"
+  },
+  "homepage": "https://github.com/Juana-89/interior-consultant-master#readme"
+}

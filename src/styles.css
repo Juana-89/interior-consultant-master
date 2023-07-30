@@ -254,11 +254,3 @@ footer {
         transform: translateY(0);
     }
 }
-
-@media (min-width: 769px) {
-
-.img__menu.hide {
-    display: none;
-}
-
-}

@@ -35,10 +35,12 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
-![screenshot](https://i.ibb.co/VTZQsd4/Captura-de-pantalla-2023-07-30-022453.png)
-![screenshot](https://i.ibb.co/2y6SxpL/Captura-de-pantalla-2023-07-30-022919.png)
-![screenshot](https://i.ibb.co/0D9vcc7/Captura-de-pantalla-2023-07-30-022935.png)
+<p align="center">
+  <img src="https://i.ibb.co/VTZQsd4/Captura-de-pantalla-2023-07-30-022453.png" width="500px" height="300px" /> 
+  <br/>
+  <img src="https://i.ibb.co/2y6SxpL/Captura-de-pantalla-2023-07-30-022919.png" width="250px" height="500px" />
+  <img src="https://i.ibb.co/0D9vcc7/Captura-de-pantalla-2023-07-30-022935.png" width="250px" height="500px" />
+</p>
 <br/>
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 

@@ -17,8 +17,21 @@ closeMenu.addEventListener('click', () => {
   mobileMenu.classList.remove('show');
   main.classList.remove('hide')
   titleMenu.style.display = 'block';
-  imgMenu.style.display = 'block'; //aqui
-//   imgMenu.classList.add('hide')
+  imgMenu.style.display = 'block';
   closeMenu.style.display = 'none';
   main.style.visibility = 'visible'
 });
+
+
+function toggleMenuButton() {
+  if (window.innerWidth <= 768) {
+    imgMenu.style.display = 'block';
+  } else {
+    imgMenu.style.display = 'none';
+    // closeMenu.style.display = 'none';
+  }
+}
+
+toggleMenuButton();
+
+window.addEventListener('resize', toggleMenuButton);
